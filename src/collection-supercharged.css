@@ -1,0 +1,6 @@
+/* Collection supercharged additions */
+@media (min-width: 768px){
+  .two-pane { grid-template-columns: 320px 1fr; }
+}
+/* smooth anchor offset for sticky headers if needed */
+:target { scroll-margin-top: 80px; }

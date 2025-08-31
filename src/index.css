@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thème de base (peut être ajusté) */
+:root {
+  --cy-bg: #0b1020;
+  --cy-panel: rgba(15, 23, 42, 0.35);
+  --cy-border: rgba(255,255,255,0.12);
+  --cy-text: #e2e8f0;
+}
+body {
+  background: var(--cy-bg);
+  color: var(--cy-text);
+}
+.glass {
+  backdrop-filter: blur(8px);
+  background: var(--cy-panel);
+  border: 1px solid var(--cy-border);
+}
+.neon {
+  text-shadow: 0 0 6px #00e5ff, 0 0 12px #00e5ff;
+}
